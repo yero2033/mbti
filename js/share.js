@@ -4,10 +4,10 @@ function shareKakao() {
     Kakao.Link.sendDefault({
         objectType: 'feed',
         content: {
-          title: '오늘의 디저트',
-          description: '아메리카노, 빵, 케익',
+          title: '나와 어울리는 꽃과 식물은?',
+          description: '행복정원 MBTI 테스트',
           imageUrl:
-            'https://mud-kage.kakao.com/dn/NTmhS/btqfEUdFAUf/FjKzkZsnoeE4o19klTOVI1/openlink_640x640s.jpg',
+            './img/share.png',
           link: {
             mobileWebUrl: 'https://developers.kakao.com',
             webUrl: 'https://developers.kakao.com',
