@@ -4,11 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="HappyGarden">
+    <meta name="kewords" content="행복정원">
+    <meta name="description" content="나와 어울리는 식물과 꽃 테스트">
+
+<!--sns share-->
+    <meta property="og:url" content="https://happygarden-mbti.netlify.app"/>
+    <meta property="og:title" content="나와 어울리는 식물과 꽃 테스트"/>
+    <meta property="og:type" content="webshite"/>
+    <meta property="og:image" content="img/share.png"/>
+    <meta property="og:description" content="나와 어울리는 식물과 꽃 테스트"/>
+
+<!-- favicon-->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="img/favicon.ico">
+
+
     <title>나와 어울리는 식물과 꽃 테스트</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/default.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/qna.css">
+    <link rel="stylesheet" href="./css/result.css">
     <link rel="stylesheet" href="./css/animation.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +35,7 @@
 <body>
     <div class="container">
  
-        <section id="main" class="mx-auto mt-5 py-5 px-3">
+        <section id="main" class="mx-auto my-5 mt-5 py-5 px-3">
             <h3>나와 어울리는 꽃과 식물은?</h3>
             <div class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
                 <img src="./img/main.png" class="img-fluid" alt="mainImage">
@@ -30,6 +47,11 @@
             <button type="button" class="btn btn-danger mt-3" onclick="js:begin()">시작하기</button>
         </section>
         <section id="qna">
+            <div class="status mx-auto  mt-5">
+                <div class="statusBar">
+
+                </div>
+            </div>
             <div class="qBox my-5 py-3 mx-auto">
 
             </div>
@@ -37,8 +59,18 @@
                 
             </div>
         </section>
-        <section id="result">
+        <section id="result" class="mx-auto my-5 mt-5 py-5 px-3">
+            <h3>당신과 어울리는 꽃과 식물 결과</h3>
+            <div class="resultName" >
+                    
+            </div>
+            <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+                
+            </div>
+            <div class="resultDesc">
 
+            </div>
+            <button type="button" class="kakao mt-3 py-2 px-3">공유하기</button>
         </section>
         <script src="./js/data.js" charset="utf-8"></script>
         <script src="./js/start.js" charset="utf-8"></script>
