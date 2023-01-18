@@ -7,7 +7,7 @@ function shareKakao() {
           title: '나와 어울리는 꽃과 식물은?',
           description: '행복정원 MBTI 테스트',
           imageUrl:
-            '../img/share.png',
+            'https://github.com/yero2033/mbti/blob/master/img/main.png',
           link: {
             mobileWebUrl: 'https://developers.kakao.com',
             webUrl: 'https://developers.kakao.com',
@@ -15,8 +15,8 @@ function shareKakao() {
         },
         itemContent: {
           profileText: 'Kakao',
-          profileImageUrl: '../img/share.png',
-          titleImageUrl: '../img/share.png',
+          profileImageUrl: 'https://github.com/yero2033/mbti/blob/master/img/share.png',
+          titleImageUrl: 'https://github.com/yero2033/mbti/blob/master/img/share.png',
           titleImageText: '나와 어울리는 꽃과 식물은?',
           titleImageCategory: '행복정원 MBTI',
 
