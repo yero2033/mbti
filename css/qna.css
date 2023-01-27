@@ -2,6 +2,12 @@
     display: none;
 }
 
+
+.qNum {
+    font-size: 30px;
+    text-align: center;
+    width:20%;
+}
 .qBox {
     background-color: whitesmoke;
     text-align: center;
@@ -12,9 +18,9 @@
 
 .answerList {
     background-color: whitesmoke;
-    border-radius: 20px;
+    border-radius: 60px;
     display: block;
-    width:80%;
+    width:60%;
     border: 0px;
     font-size: 20px;;
 }

@@ -1,7 +1,7 @@
 const main = document.querySelector("#main");
 const qna = document.querySelector("#qna");
 const result = document.querySelector("#result");
-const endPoint = 12;
+const endPoint = 9;
 const select = [0, 0, 0, 0, 0, 0]; /*결과 담을 빈 배열*/
 
 
@@ -76,8 +76,11 @@ function goNext(qIdx){
         goResult();
         return;
     }
-    var q = document.querySelector(".qBox");
 
+    var n = document.querySelector(".qNum");
+    n.innerHTML = qIdx+1;
+    
+    var q = document.querySelector(".qBox");
     q.innerHTML = qnaList[qIdx].q; 
     for(let i in qnaList[qIdx].a){
         addAnswer(qnaList[qIdx].a[i].answer, qIdx, i);
