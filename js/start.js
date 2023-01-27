@@ -1,7 +1,7 @@
 const main = document.querySelector("#main");
 const qna = document.querySelector("#qna");
 const result = document.querySelector("#result");
-const endPoint = 9;
+const endPoint = 10;
 const select = [0, 0, 0, 0, 0, 0]; /*결과 담을 빈 배열*/
 
 
