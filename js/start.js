@@ -77,6 +77,12 @@ function goNext(qIdx){
         return;
     }
 
+ 
+    // 배경 이미지 변경
+    var bgURL = 'img/bg-' + qIdx + '.png';
+    qna.style.backgroundImage = "url('" + bgURL+ "')";
+    console.log(qna);
+   
     var n = document.querySelector(".qNum");
     n.innerHTML = qIdx+1;
     

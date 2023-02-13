@@ -2,6 +2,11 @@
     display: none;
 }
 
+#bgImg {
+    width:100%;
+    height:100%;
+}
+
 
 .qNum {
     font-size: 30px;
@@ -9,7 +14,7 @@
     width:20%;
 }
 .qBox {
-    background-color: whitesmoke;
+   
     text-align: center;
     border-radius: 20px;
     font-size: 24px;
@@ -48,3 +53,4 @@ background: linear-gradient(to bottom,  #627d4d 0%,#1f3b08 100%); /* W3C, IE10+,
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', endColorstr='#1f3b08',GradientType=0 ); /* IE6-9 */
 
 }
+
